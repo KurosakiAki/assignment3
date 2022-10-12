@@ -1,0 +1,66 @@
+@media only screen and (max-width: 576px){
+    *{
+        /* background-color: yellowgreen !important; */
+    }
+    /* Banner */
+    #banner{
+        display: block;
+        width: 100%;
+        object-fit: contain;
+    }
+    /* Navbar */
+        /* Tắt border */
+    .navbar .navbar-nav .nav-item{
+        border: none !important;
+    }
+
+    .navbar-middle{
+        display: none;
+    }
+
+    /* Certificate */
+    .grid,
+    .container .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .list-price{
+        gap:0;
+    }
+
+    .row-border{
+        display: none;
+    }
+
+    .list-price > *:nth-child(2),
+    .list-price > *:last-child{
+        border-top:#d6c08d solid 1px ;
+    }
+
+    .price-img{
+        width: 100% !important;
+    }
+
+    .item-price:nth-child(2){
+        border-left: none !important;
+    }
+
+    /* Project */
+    #project .card-body .d-flex p{
+        width: fit-content;
+    }
+
+    /* Footer */
+    #footer .container{
+        width: 20px;
+        gap: 0;
+        visibility: hidden;
+    }
+
+    #footer .container .nav-link i{
+        font-size: 30px;
+        visibility: visible;
+    }
+
+}

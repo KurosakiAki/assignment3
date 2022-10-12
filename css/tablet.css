@@ -1,0 +1,50 @@
+@media only screen and (max-width: 768px) {
+  * {
+    /* background-color: aqua; */
+  }
+
+  /* Navbar */
+  .navbar .navbar-nav {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    width: 50px;
+    clear: both;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .navbar-middle {
+    margin: 0 15px 0 !important;
+  }
+
+  /* Job info */
+  .job-details h1 {
+    font-size: 18px !important; 
+  }
+
+  .level {
+    width: 30px !important;
+  }
+
+  /*  Certificate */
+  .item-price {
+    display: block !important;
+  }
+
+  .price-img {
+    width: 100% !important;
+  }
+
+  .item-price h5 {
+    font-size: medium;
+  }
+
+  /* Project */
+  #project h3 {
+    font-size: 16px !important;
+    font-weight: normal;
+  }
+}
